@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Cards app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="943" alt="Screenshot 2021-09-03 at 12 05 05" src="https://user-images.githubusercontent.com/10253713/131988689-f6ed0419-765e-49f5-b2b8-be142fc0814a.png">
+
+<img width="943" alt="Screenshot 2021-09-03 at 12 05 14" src="https://user-images.githubusercontent.com/10253713/131988682-6784cde6-8c9a-4f53-a139-2a0d246b596b.png">
+
+<img width="936" alt="Screenshot 2021-09-03 at 12 05 37" src="https://user-images.githubusercontent.com/10253713/131988675-8b036f5f-13f3-4360-a5e0-1e97bf83c562.png">
+
+This project was bootstrapped with [Create React App and Typescript template](https://create-react-app.dev/docs/adding-typescript/).
 
 ## Available Scripts
 
@@ -33,14 +39,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
