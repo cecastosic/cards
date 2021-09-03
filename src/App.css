@@ -33,7 +33,6 @@ ul li {
 .app {
   background-color: #000;
   min-height: 100vh;
-  padding: 1rem;
   text-align: center;
 }
 
@@ -81,7 +80,9 @@ ul li {
 .paginate-container {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
@@ -108,7 +109,7 @@ ul li {
   opacity: 0;
 }
 
-.pagination li span.current-page {
+.pagination li.current-page span {
   font-weight: bold;
   opacity: 1;
 }
