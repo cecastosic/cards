@@ -16,8 +16,6 @@ function App() {
   const { data: allCards } = useFetch("/cards");
   const { data } = useFetch(`/cards?_page=${currentPage}&_limit=8`);
 
-  console.log(currentPage);
-
   useEffect(() => {
     if (debouncedQuery !== "") {
       const filteredCards: CardData[] = allCards.filter((card: CardData) =>

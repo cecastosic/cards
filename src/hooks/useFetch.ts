@@ -14,7 +14,6 @@ export const useFetch = (
   }
 
   const url: string = name ? baseUrl + path + "/" + name : baseUrl + path;
-  console.log(url);
   const { data, error } = useSwr(url);
 
   return { data, error };
