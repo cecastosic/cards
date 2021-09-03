@@ -96,7 +96,7 @@ ul li {
   cursor: pointer;
   display: inline-block;
   min-width: 1.5rem;
-  opacity: 0.8;
+  opacity: 0.6;
   padding: 0.5rem;
 }
 
@@ -108,7 +108,7 @@ ul li {
   opacity: 0;
 }
 
-.pagination .current-page {
+.pagination li span.current-page {
   font-weight: bold;
   opacity: 1;
 }

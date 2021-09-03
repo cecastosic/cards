@@ -16,7 +16,7 @@ function App() {
   const { data: allCards } = useFetch("/cards");
   const { data } = useFetch(`/cards?_page=${currentPage}&_limit=8`);
 
-  console.log(totalItems);
+  console.log(currentPage);
 
   useEffect(() => {
     if (debouncedQuery !== "") {
@@ -63,6 +63,7 @@ function App() {
             <Pagination
               totalItems={totalItems}
               onPageChange={(pageNumber) => setCurrentPage(pageNumber)}
+              currentPage={currentPage}
             />
           </>
         ) : (
