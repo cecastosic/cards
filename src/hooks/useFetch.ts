@@ -1,6 +1,6 @@
 import useSwr from "swr";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://my-json-server.typicode.com/cecastosic/cards/";
 
 export const useFetch = (
   path: string,
