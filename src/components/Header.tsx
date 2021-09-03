@@ -6,7 +6,7 @@ export const Header = ({
   setSearchQuery: React.Dispatch<React.SetStateAction<string>>;
 }): JSX.Element => {
   return (
-    <div className="header">
+    <header>
       <h1>Cards</h1>
       <div className="search">
         <input
@@ -18,6 +18,6 @@ export const Header = ({
           autoFocus
         />
       </div>
-    </div>
+    </header>
   );
 };

@@ -30,6 +30,10 @@ ul li {
   list-style-type: none;
 }
 
+header {
+  padding-top: 2rem;
+}
+
 .app {
   background-color: #000;
   min-height: 100vh;
