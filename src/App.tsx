@@ -33,9 +33,9 @@ function App() {
 
   if (cards) {
     return (
-      <div className="app">
+      <div className="app" role="main">
         <Header value={searchQuery} setSearchQuery={setSearchQuery} />
-        <div className="container">
+        <div className="container" role="grid">
           {cards.length > 0 ? (
             cards.map((card: CardData) => {
               return <Card data={card} key={card.imagePath} />;
@@ -49,7 +49,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className="app" role="main">
       <Header value={searchQuery} setSearchQuery={setSearchQuery} />
       <div className="container" role="main">
         {data && data.length > 0 ? (

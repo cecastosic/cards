@@ -9,7 +9,7 @@ type CardProps = {
 };
 export const Card = ({ data }: CardProps) => {
   return (
-    <div className="card" key={data.title}>
+    <div className="card" key={data.title} role="gridcell">
       <div className="image">
         <img src={data.imagePath} alt={data.description} />
       </div>

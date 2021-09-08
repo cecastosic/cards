@@ -71,6 +71,7 @@ export const Pagination = ({
                 onPageChange(current - 1);
               }}
               role="link"
+              tabIndex={0}
             >
               <ArrowIconPrevious />
             </span>
@@ -88,6 +89,7 @@ export const Pagination = ({
                   onPageChange(index + 1);
                 }}
                 role="link"
+                tabIndex={0}
               >
                 {page}
               </span>
@@ -106,6 +108,7 @@ export const Pagination = ({
                 onPageChange(current + 1);
               }}
               role="link"
+              tabIndex={0}
             >
               <ArrowIconNext />
             </span>
