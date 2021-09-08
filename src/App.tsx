@@ -22,8 +22,7 @@ function App() {
         card.title.toLowerCase().includes(debouncedQuery.toLowerCase())
       );
       setCards(filteredCards);
-    }
-    if (debouncedQuery === "") setCards(null);
+    } else setCards(null);
   }, [debouncedQuery, allCards]);
 
   useEffect(() => {
